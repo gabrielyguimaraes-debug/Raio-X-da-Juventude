@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+  <title id="title">Saúde mental e tempo de deslocamento</title>
+  <desc id="desc">Gráfico de barras mostrando diferentes índices de bem-estar conforme o tempo diário de deslocamento.</desc>
+  <rect width="720" height="430" rx="12" fill="#fbfaff"/>
+  <text x="360" y="42" fill="#24133f" font-size="24" font-family="Inter, Arial, sans-serif" font-weight="700" text-anchor="middle">Índice de bem-estar</text>
+  <g stroke="#ddd5ea" stroke-width="1">
+    <line x1="95" y1="340" x2="650" y2="340"/><line x1="95" y1="275" x2="650" y2="275"/><line x1="95" y1="210" x2="650" y2="210"/><line x1="95" y1="145" x2="650" y2="145"/><line x1="95" y1="80" x2="650" y2="80"/>
+  </g>
+  <g fill="#718096" font-size="14" font-family="Inter, Arial, sans-serif" text-anchor="end">
+    <text x="82" y="345">0</text><text x="82" y="280">25</text><text x="82" y="215">50</text><text x="82" y="150">75</text><text x="82" y="85">100</text>
+  </g>
+  <rect x="145" y="107" width="125" height="233" rx="8" fill="#a855f7"/>
+  <rect x="297" y="146" width="125" height="194" rx="8" fill="#9333ea"/>
+  <rect x="449" y="198" width="125" height="142" rx="8" fill="#7e22ce"/>
+  <g fill="#24133f" font-family="Inter, Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="207" y="95" font-size="20">90</text><text x="359" y="134" font-size="20">75</text><text x="511" y="186" font-size="20">55</text>
+    <text x="207" y="380" font-size="15">Até 30 min</text><text x="359" y="380" font-size="15">30–60 min</text><text x="511" y="380" font-size="15">Acima de 90 min</text>
+  </g>
+  <text x="360" y="410" fill="#718096" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">Indicadores ilustrativos por tempo diário de deslocamento</text>
+</svg>

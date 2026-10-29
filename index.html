@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raio-X da Juventude | Análise Social e Educacional</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte Inter do Google Fonts para um visual moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho / Hero -->
+    <header class="hero">
+        <div class="container">
+            <span class="badge">Projeto de Impacto Social</span>
+            <h1>Raio-X da Juventude</h1>
+            <p>Diagnóstico das condições de vida, socioeconômicas e educacionais de jovens para embasar políticas públicas e ações práticas.</p>
+            <a href="#dados" class="btn">Ver Gráficos e Dados</a>
+        </div>
+    </header>
+
+    <!-- Sobre o Projeto -->
+    <section class="section container">
+        <h2>🎯 Objetivo do Projeto</h2>
+        <p>Este projeto utiliza a ciência de dados e a linguagem Python para mapear a realidade juvenil. O objetivo é transformar dados primários e secundários em insights acionáveis, gerando propostas reais para a melhoria do ensino e do bem-estar social.</p>
+        
+        <div class="grid-3">
+            <div class="card-mini">
+                <h3>Socioeconômico</h3>
+                <p>Análise de renda familiar, habitação e o nível de acesso à internet estável.</p>
+            </div>
+            <div class="card-mini">
+                <h3>Educacional</h3>
+                <p>Mapeamento de frequência escolar, evasão e horas dedicadas aos estudos.</p>
+            </div>
+            <div class="card-mini">
+                <h3>Qualidade de Vida</h3>
+                <p>Indicadores de saúde mental, tempo de deslocamento diário e lazer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Dados e Gráficos -->
+    <section id="dados" class="section bg-light">
+        <div class="container">
+            <h2>📊 Análise e Visualização de Dados</h2>
+            <p>Resultados obtidos através do tratamento de dados realizado no Google Colab utilizando as bibliotecas Pandas, Seaborn e Matplotlib.</p>
+            
+            <div class="grid-2">
+                <!-- Gráfico 1 -->
+                <div class="chart-card">
+                    <h3>Impacto da Internet nos Estudos</h3>
+                    <!-- Adicione aqui o arquivo PNG gerado pelo Python. -->
+                    <div class="chart-media">
+                        <img src="grafico_internet_estudo.svg" alt="Gráfico roxo: horas de estudo por acesso à internet" class="chart-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block'>
+                        <span class="chart-placeholder">Gráfico aguardando imagem</span>
+                    </div>
+                    <p class="chart-desc">O cruzamento de dados demonstra que jovens sem acesso estável à internet dedicam menos horas aos estudos extracurriculares devido à falta de material de apoio rápido.</p>
+                </div>
+                
+                <!-- Gráfico 2 -->
+                <div class="chart-card">
+                    <h3>Saúde Mental vs Deslocamento</h3>
+                    <!-- Adicione aqui o segundo arquivo PNG gerado pelo Python. -->
+                    <div class="chart-media">
+                        <img src="grafico_saude_mental.svg" alt="Gráfico roxo: saúde mental por tempo de deslocamento" class="chart-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block'>
+                        <span class="chart-placeholder">Gráfico aguardando imagem</span>
+                    </div>
+                    <p class="chart-desc">Análise correlativa indicando que tempos de deslocamento superiores a 1 hora e meia impactam negativamente os índices de bem-estar emocional reportados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pilares de Intervenção -->
+    <section class="section container">
+        <h2>💡 Propostas de Impacto Estratégico</h2>
+        <p>Soluções práticas desenhadas a partir das carências identificadas na análise de dados.</p>
+        
+        <div class="pilar-box">
+            <div class="pilar-num">01</div>
+            <div class="pilar-content">
+                <h3>Inclusão Digital e Recursos de Estudo</h3>
+                <p>Criação e ampliação de polos comunitários de estudos. Espaços físicos equipados com computadores e internet de alta velocidade gratuitos para jovens de baixa renda realizarem tarefas e pesquisas.</p>
+            </div>
+        </div>
+
+        <div class="pilar-box">
+            <div class="pilar-num">02</div>
+            <div class="pilar-content">
+                <h3>Apoio Socioemocional e Mentoria Escolar</h3>
+                <p>Implementação de programas estruturados de mentoria estudantil e acompanhamento psicossocial contínuo dentro das escolas públicas, visando mitigar os índices de evasão escolar e depressão.</p>
+            </div>
+        </div>
+
+        <div class="pilar-box">
+            <div class="pilar-num">03</div>
+            <div class="pilar-content">
+                <h3>Adequação do Ensino às Demandas de Futuro</h3>
+                <p>Integração de cursos rápidos de capacitação técnica essencial (programação, análise de dados e habilidades digitais) ao currículo tradicional, focando na empregabilidade e inserção imediata no mercado de trabalho.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 Projeto Raio-X da Juventude. Desenvolvido com Python, HTML e CSS.</p>
+    </footer>
+
+</body>
+</html>
